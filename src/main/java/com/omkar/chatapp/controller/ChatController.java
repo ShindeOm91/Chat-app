@@ -11,7 +11,7 @@ import com.omkar.chatapp.model.ChatMessage;
 
 @Controller
 public class ChatController {
-	
+
     @MessageMapping("/chat.sendMessage")
     @SendTo("/topic/public")
     public ChatMessage sendMessage(@Payload ChatMessage chatMessage) {
