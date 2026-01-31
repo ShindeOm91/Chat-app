@@ -4,9 +4,6 @@ FROM openjdk:11
 # Maintainer Info
 LABEL maintainer="Omkar Shinde <oshinde91199@gmail.com>"
 
-# Add a volume pointing to /tmp
-VOLUME /tmp
-
 # Make port 8080 available to the world outside this container
 EXPOSE 8080
 
